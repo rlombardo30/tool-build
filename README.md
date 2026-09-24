@@ -70,7 +70,16 @@ This tool aligns with the Tool Intent by making movement visible in real time wi
 ## Break Log #1
 
 
+b77030d
+
 * The camera does not function when you click “Don’t Allow” on your browser. This happens because the website does not have permission to access the camera.
+
+### Break Log #2 — Picture-in-Picture
+
+* **Date:** [add date]
+* **Commit:** [add commit hash]
+* **What broke:** I right-clicked the camera and selected Picture-in-Picture. The camera preview moved into a separate window, which changed how the tool normally displayed the camera.
+* **What I changed:** I adjusted the tool to handle Picture-in-Picture more clearly and keep track of the camera's state.
 
 ## Run locally
 
