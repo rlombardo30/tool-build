@@ -67,9 +67,10 @@ This layer is designed to make the user notice their own movement clearly and im
 
 This tool aligns with the Tool Intent by making movement visible in real time without judging or tracking the user. It is a simple feedback system: the user sees their own body motion in the moment, and the display responds clearly while staying fully local to the browser.
 
-## Break Log
+## Break Log #1
 
-This section is intentionally left blank for later notes, bug reports, fixes, and testing observations.
+
+* The camera does not function when you click “Don’t Allow” on your browser. This happens because the website does not have permission to access the camera.
 
 ## Run locally
 
