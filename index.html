@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tool Build (mechanics)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Tool Build (mechanics)</h1>
+      <p class="description">
+        This tool shows your movement in real time through the camera so you can notice it without
+        judgment, tracking, or extra features.
+      </p>
+
+      <div class="controls">
+        <button id="startCameraBtn" type="button">Start Camera</button>
+        <button id="stopCameraBtn" type="button" class="secondary">Stop Camera</button>
+      </div>
+
+      <div class="video-wrap">
+        <video id="video" autoplay playsinline muted></video>
+      </div>
+
+      <div id="motionIndicator" class="status idle" aria-live="polite">
+        <strong>Motion:</strong> waiting
+      </div>
+
+      <div id="systemState" class="state" aria-live="polite">System state: ready</div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
