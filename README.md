@@ -80,6 +80,12 @@ b77030d
 * **Commit:** [add commit hash]
 * **What broke:** I right-clicked the camera and selected Picture-in-Picture. The camera preview moved into a separate window, which changed how the tool normally displayed the camera.
 * **What I changed:** I adjusted the tool to handle Picture-in-Picture more clearly and keep track of the camera's state.
+### Break Log #3 — Reloading the Page
+
+* **Date:** [add date]
+* **Commit:** [add commit hash]
+* **What broke:** I right-clicked the page and pressed Reload while the camera was running. After reloading, the camera did not continue working the same way.
+* **What I changed:** I fixed the tool so it resets the camera and motion detection correctly after the page is reloaded.
 
 ## Run locally
 
